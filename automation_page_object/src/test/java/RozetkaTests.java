@@ -21,7 +21,6 @@ public class RozetkaTests {
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 
         mainPage = new MainPage(driver);
-        PageFactory.initElements(driver, mainPage);
     }
 
     @AfterEach
